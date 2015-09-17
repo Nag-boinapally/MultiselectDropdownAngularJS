@@ -9,7 +9,7 @@ aaangularjsapplication.directive('aadropdownmultiselect', function () {
             model: '=',
             multiselectoptions: '=',
             maxlenghttoshowselectedvalues: '=',
-            onchangeeventofcheckbox: '&',
+            onchangeeventofcheckbox: '&',//nagesh comments added
         },
         template:
         '<div class="btn-group" ng-class={open:open}> \
